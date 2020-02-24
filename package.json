@@ -1,0 +1,14 @@
+{
+  "name": "kteest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "precache-manifest.f709d2ca1d3337b29fa291fa6f528589.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
