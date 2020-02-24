@@ -7,7 +7,5 @@ app.use(express.static('kteest'))
 app.get('/*', (req, res) => {
 res.sendFile(path.join(__dirname, './kteest/index.html'));
 })
-const port =8081;
-app.listen(port,()=>{
-console.log(`App running on ${port}`);
-})
+var port_number = app.listen(process.env.PORT || 3003);
+app.listen(port_number);
